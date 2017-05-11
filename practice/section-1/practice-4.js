@@ -6,10 +6,10 @@ function collectSameElements(collectionA, objectB) {
 		collectionAA.push(collectionA[index].key);
 	}
   	const  collectionB = objectB.value;
-	const  collectionC = collectionAA.filter(function(item){
+	return  collectionC = collectionAA.filter(function(item){
 		return collectionB.indexOf(item) > -1;
 	});
-	return collectionC;
+	//return collectionC;
 
   //return '实现练习要求，并改写该行代码。';
 }
